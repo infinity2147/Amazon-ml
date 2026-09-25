@@ -2,3 +2,4 @@
 [   193s] TLV: 11,219,631 pairs, clone share 0.197
 [   758s] fold 0 model U: best_iter 1156
 [  1106s] fold 0 model W: best_iter 1292
+[  1453s] fold 1 model U: best_iter 1103

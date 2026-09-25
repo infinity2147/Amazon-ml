@@ -5,3 +5,5 @@
 [  1018s] s1 fold 2: best_iter 1333
 [  1130s] stage-1 TLV F0.5 0.97426
 [  1534s] s2 fold 0: best_iter 310
+[  1649s] s2 fold 1: best_iter 315
+[  1740s] s2 fold 2: best_iter 280
