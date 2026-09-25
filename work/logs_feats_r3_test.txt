@@ -1,0 +1,7 @@
+france: 5,384,486 pairs; state map 7
+france: features (5384486, 73) at 101s
+india: 16,771,975 pairs; state map 34
+india: features (16771975, 73) at 373s
+us: 13,272,660 pairs; state map 72
+us: features (13272660, 73) at 577s
+features done 577 s

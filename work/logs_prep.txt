@@ -1,0 +1,7 @@
+[prep] train india: 37 state comps, 47 noise comps; e.g. ['amdhrprdes', 'andhra pradesh', 'bihar', 'chennai city region', 'delhi', 'dilli'] / ['amdhrprdes', 'atdlhi', 'baghdelhi', 'blokc', 'bodda', 'ciy']
+[prep] train us: 76 state comps, 749 noise comps; e.g. ['a', 'ak', 'al', 'alaska', 'ar', 'arizona'] / ['abany', 'abiote', 'abluquerque', 'aburn', 'acity', 'adk']
+train done 2206821 10320219 151 s
+[prep] test france: 7 state comps, 54 noise comps; e.g. ['gironde', 'hauts de france', 'loire atlantique', 'nord', 'nouvelle aquitaine', 'pas de calais'] / ['13b', '14b', '16b', '17b', '18b', '20b']
+[prep] test india: 36 state comps, 64 noise comps; e.g. ['amdhrprdes', 'andhra pradesh', 'bihar', 'chennai city region', 'delhi', 'dilli'] / ['ambajhari', 'amdhrprdes', 'atdlhi', 'bb3', 'blokc', 'bodda']
+[prep] test us: 75 state comps, 307 noise comps; e.g. ['a', 'ak', 'al', 'alaska', 'ar', 'arizona'] / ['abiote', 'acity', 'adk', 'aenue', 'aevnue', 'ahwatukee']
+test done 1732544 9969589 142 s

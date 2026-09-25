@@ -1,0 +1,5 @@
+india: 18,239,086 pairs; state map 35
+india: features (18239086, 73) at 377s
+us: 26,515,225 pairs; state map 73
+us: features (26515225, 73) at 816s
+features done 816 s

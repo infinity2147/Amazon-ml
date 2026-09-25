@@ -1,0 +1,4 @@
+france: key pairs 752,460 (2.90/S1)
+india: key pairs 1,816,082 (2.24/S1)
+us: key pairs 822,886 (1.24/S1)
+test: pairs r1 -> r2 = 35,788,214

@@ -1,0 +1,20 @@
+11,047,703 pairs, 551,789 S1, pos rate 0.170, 70 feats
+[oof] fold 0: best_iter=3109
+[oof] fold 1: best_iter=2561
+[oof] fold 2: best_iter=2892
+[oof] fold 3: best_iter=3014
+[oof] fold 4: best_iter=3176
+AUC 0.99955  logloss 0.01830
+OOF macro F0.5 = 0.97513
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9706  6126.2672      0.4464
+        singleton   12373  0.9240   940.0000      0.0685
+US      matched    312589  0.9812  5883.8377      0.4288
+        singleton   18404  0.9580   773.0000      0.0563
+  threshold 0.3: F0.5 0.96650
+  threshold 0.4: F0.5 0.97018
+  threshold 0.5: F0.5 0.97338
+  threshold 0.6: F0.5 0.97484
+  threshold 0.7: F0.5 0.97521
+done 3087 s

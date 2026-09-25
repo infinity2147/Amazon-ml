@@ -1,0 +1,8 @@
+[   165s] india: union 80,552,895, ranker rows 23,988,238
+[   426s] us: union 120,794,784, ranker rows 36,078,786
+[   568s] ranker trained on 60,067,024 rows, pos 0.0375
+[   809s] india: union 80,552,895 (91.2/S1) -> capped 17,696,145 (20.0/S1)
+[  1183s] us: union 120,794,784 (91.3/S1) -> capped 26,485,303 (20.0/S1)
+[  1197s] saved 44,181,448 pairs
+[  1295s] india (non-ranker S1): pair recall 0.9672, full coverage 0.9019, cands/S1 20.0
+[  1315s] us (non-ranker S1): pair recall 0.9904, full coverage 0.9668, cands/S1 20.0

@@ -1,0 +1,7 @@
+[     0s] config: tag=tlv3_f2 K=3 LR=0.1 HONEST=False S2POP=sample TIE=False POUT=0 DROP=[] TEST=
+[    75s] validation: 11,219,631 pairs / 551,789 S1, 71 feats, clone pairs 0.197
+[   245s] s1 fold 0: best_iter 1022
+[   426s] s1 fold 1: best_iter 957
+[  1018s] s1 fold 2: best_iter 1333
+[  1130s] stage-1 TLV F0.5 0.97426
+[  1534s] s2 fold 0: best_iter 310

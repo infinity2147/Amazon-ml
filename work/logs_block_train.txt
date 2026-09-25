@@ -1,0 +1,8 @@
+[block] india v_word: 48,453,519 pairs (54.9/S1) in 952s
+[block] india v_name5: 25,621,604 pairs (29.0/S1) in 383s
+[block] india v_addr5: 23,019,417 pairs (26.1/S1) in 544s
+[block] india: union 80,552,895 (91.2/S1) -> capped 57,419,691 (65.0/S1)
+[block] us v_word: 72,598,582 pairs (54.8/S1) in 1074s
+[block] us v_name5: 36,476,227 pairs (27.6/S1) in 418s
+[block] us v_addr5: 34,810,474 pairs (26.3/S1) in 531s
+[block] us: union 120,794,784 (91.3/S1) -> capped 87,211,990 (65.9/S1)

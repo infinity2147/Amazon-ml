@@ -1,0 +1,16 @@
+[    68s] training on 11,047,703 pairs, 61 feats, 2200 rounds
+[   405s] trained
+[   660s] predicted test 34,714,475
+[   886s] decoded
+[  1019s] check_outputs: ['PASS']
+         empty   mean
+country              
+France   0.046  3.441
+India    0.054  3.281
+US       0.053  3.327
+max-p per S1 by country:
+ pmax     (0.0, 0.1]  (0.1, 0.3]  (0.3, 0.5]  (0.5, 0.7]  (0.7, 0.9]  (0.9, 0.99]  (0.99, 1.0]
+country                                                                                      
+France        0.029       0.012       0.005       0.004       0.004        0.011        0.934
+India         0.042       0.007       0.005       0.005       0.006        0.028        0.908
+US            0.036       0.012       0.005       0.004       0.004        0.011        0.928

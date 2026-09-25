@@ -1,0 +1,10 @@
+[block] france v_word: 16,238,763 pairs (62.6/S1) in 213s
+[block] france v_name5: 8,144,191 pairs (31.4/S1) in 192s
+[block] france v_addr5: 8,021,102 pairs (30.9/S1) in 249s
+[block] india v_word: 52,821,168 pairs (65.2/S1) in 1011s
+[block] india v_name5: 27,831,017 pairs (34.4/S1) in 409s
+[block] india v_addr5: 25,180,021 pairs (31.1/S1) in 603s
+[block] us v_word: 42,750,335 pairs (64.5/S1) in 695s
+[block] us v_name5: 21,578,205 pairs (32.5/S1) in 379s
+[block] us v_addr5: 20,557,893 pairs (31.0/S1) in 560s
+views done 4325 s

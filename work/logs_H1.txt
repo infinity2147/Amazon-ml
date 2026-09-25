@@ -1,0 +1,4 @@
+[   102s] orig: 11,192,153 pairs, 71 feats; decoy share of negatives 0.350
+[   193s] TLV: 11,219,631 pairs, clone share 0.197
+[   758s] fold 0 model U: best_iter 1156
+[  1106s] fold 0 model W: best_iter 1292

@@ -1,0 +1,24 @@
+# Environment and Python artefacts
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Competition data (organisers' data: not redistributed) and everything derived from it
+student_resource/dataset/
+work/cache/
+*.parquet
+*.tsv
+*.zip
+*.gz
+
+# Trained models, submission files and upload folders (large; regenerate with the pipeline)
+model_*.txt
+ranker*.txt
+output/
+submissions/
+UPLOAD_THIS/
+
+# Organisers' problem-statement PDF (the README in student_resource/ has the same text)
+6ab5628d5a817_amazon_ml_challenge_problem_statement.pdf

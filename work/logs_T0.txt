@@ -1,0 +1,16 @@
+[     0s] config: tag=tlv_f2 K=3 LR=0.1 HONEST=False S2POP=sample TIE=False POUT=0 DROP=[] TEST=
+[    37s] validation: 11,329,876 pairs / 551,789 S1, 71 feats, clone pairs 0.196
+[   260s] s1 fold 0: best_iter 1306
+[   490s] s1 fold 1: best_iter 1272
+[   717s] s1 fold 2: best_iter 1222
+[   797s] stage-1 TLV F0.5 0.97379
+[  1029s] s2 fold 0: best_iter 260
+[  1114s] s2 fold 1: best_iter 323
+[  1200s] s2 fold 2: best_iter 324
+[  1277s] stage-2 TLV F0.5 0.97950
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9763  4939.5715      0.4366
+        singleton   12373  0.9598   498.0000      0.0440
+US      matched    312589  0.9826  5453.7062      0.4821
+        singleton   18404  0.9771   422.0000      0.0373

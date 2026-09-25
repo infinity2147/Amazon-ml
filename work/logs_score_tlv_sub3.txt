@@ -1,0 +1,10 @@
+[   229s] sanity: stage-1 OOF on original validation 0.97592 (sub3 logged 0.97592)
+[   286s] TLV sample: 11,329,876 pairs, 0.196 clone pairs
+[   476s] TLV stage-1: 0.96858
+[   704s] TLV two-stage: 0.96628
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9714  5958.9519      0.3203
+        singleton   12373  0.8510  1843.0000      0.0991
+US      matched    312589  0.9763  7410.0534      0.3983
+        singleton   18404  0.8156  3394.0000      0.1824

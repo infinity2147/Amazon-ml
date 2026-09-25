@@ -1,0 +1,5 @@
+[    63s] train sample 9,183,186 pairs / 447,011 S1, 71 feats
+[    98s] test 35,788,214 pairs (features r2_f2)
+[   727s] s1 fold 0: best_iter 2861
+[  1793s] s1 fold 1: best_iter 2893
+[  2553s] s1 fold 2: best_iter 2976

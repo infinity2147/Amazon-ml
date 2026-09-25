@@ -1,0 +1,10 @@
+[    34s] india: owned/S1 3.465; decoys/S1 train 1.215 test 2.360 -> clone prob q=0.941
+[    88s] india: 18,239,086 pairs, cloning 1,010,080 records -> 4,966,366 clone pairs
+[   113s] india: cap drops 3,629,612 original and 1,238,095 clone pairs
+[   205s] india: wrote 18,337,745 pairs (0.203 clone pairs)
+[   235s] us: owned/S1 3.459; decoys/S1 train 1.215 test 2.297 -> clone prob q=0.891
+[   299s] us: 26,515,225 pairs, cloning 1,431,662 records -> 6,907,905 clone pairs
+[   336s] us: cap drops 5,099,191 original and 1,798,568 clone pairs
+[   471s] us: wrote 26,525,371 pairs (0.193 clone pairs)
+[   471s] done
+CHAIN_DONE

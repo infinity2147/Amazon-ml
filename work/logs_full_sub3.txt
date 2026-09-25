@@ -1,0 +1,28 @@
+[    71s] train sample 11,289,249 pairs / 551,789 S1, 71 feats
+[   105s] test 35,788,214 pairs
+[   845s] s1 fold 0: best_iter 2933
+[  1545s] s1 fold 1: best_iter 3146
+[  2210s] s1 fold 2: best_iter 3161
+[  2826s] s1 fold 3: best_iter 2904
+[  3604s] s1 fold 4: best_iter 3311
+[  3677s] stage-1 OOF F0.5 0.97592
+[  4194s] stage-2 feats 85
+[  4409s] s2 fold 0: best_iter 668
+[  4577s] s2 fold 1: best_iter 558
+[  4746s] s2 fold 2: best_iter 564
+[  4908s] s2 fold 3: best_iter 521
+[  5103s] s2 fold 4: best_iter 665
+[  5172s] stage-2 OOF F0.5 0.97947
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9763  4947.1735      0.4367
+        singleton   12373  0.9508   609.0000      0.0538
+US      matched    312589  0.9829  5335.7896      0.4710
+        singleton   18404  0.9763   437.0000      0.0386
+[  5373s] decoded
+[  5507s] check_outputs: ['PASS']
+         empty   mean
+country              
+France   0.049  3.462
+India    0.056  3.338
+US       0.055  3.409

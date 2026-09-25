@@ -1,0 +1,39 @@
+[   111s] 11,047,703 pairs
+[   390s] sibling features
+[oof] fold 0: best_iter=878
+[oof] fold 1: best_iter=916
+[oof] fold 2: best_iter=678
+[oof] fold 3: best_iter=814
+[oof] fold 4: best_iter=849
+[  1609s] STAGE-2 OOF macro F0.5 = 0.97597
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9715  5944.4289      0.4484
+        singleton   12373  0.9403   739.0000      0.0557
+US      matched    312589  0.9807  6041.4205      0.4557
+        singleton   18404  0.9711   532.0000      0.0401
+na_prod_gap_c      1.937032e+10
+sib_n_ts_mean      1.127068e+10
+sib_a_ts_max       1.067262e+10
+rk_gap_c           8.869613e+09
+na_prod_rank_s1    5.687817e+09
+rk                 5.017087e+09
+p1                 3.419833e+09
+rk_rank_c          3.410501e+09
+sib_a_ts_mean      2.860731e+09
+sib_n_ts_max       2.574969e+09
+v_word_gap_c       2.319471e+09
+v_addr5            2.189165e+09
+v_word_margin_c    1.991294e+09
+n_sk_ratio         1.510112e+09
+p1_gap_s1          1.283148e+09
+n_tset             1.228205e+09
+na_min             1.166600e+09
+n_idfw             1.147783e+09
+v_word_gap_s1      1.066336e+09
+n_ratio            5.983735e+08
+na_max             5.930266e+08
+r_name_ntok        5.866039e+08
+aw_idfmax          5.575712e+08
+n_idfj             4.442347e+08
+p1_rank_s1         4.416517e+08

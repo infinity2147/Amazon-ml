@@ -1,0 +1,9 @@
+india: S1 883,188, gold pairs 3,059,843, missed by current shortlist 99,749 (0.0326)
+  name            max S1 per key   3: new pairs 330,121 (0.37/S1), recovers 2,563 of 99,749 missed (0.026), precision of new pairs 0.008
+  name            max S1 per key  10: new pairs 989,355 (1.12/S1), recovers 4,537 of 99,749 missed (0.045), precision of new pairs 0.005
+  name            max S1 per key  30: new pairs 1,527,305 (1.73/S1), recovers 6,192 of 99,749 missed (0.062), precision of new pairs 0.004
+  name+house      max S1 per key   3: new pairs 427,804 (0.48/S1), recovers 13,872 of 99,749 missed (0.139), precision of new pairs 0.032
+  name+house      max S1 per key  10: new pairs 903,681 (1.02/S1), recovers 16,699 of 99,749 missed (0.167), precision of new pairs 0.018
+  name+house      max S1 per key  30: new pairs 912,370 (1.03/S1), recovers 16,720 of 99,749 missed (0.168), precision of new pairs 0.018
+  house+rareword  max S1 per key   3: new pairs 457,335 (0.52/S1), recovers 27 of 99,749 missed (0.000), precision of new pairs 0.000
+  house+rareword  max S1 per key  10: new pairs 748,168 (0.85/S1), recovers 41 of 99,749 missed (0.000), precision of new pairs 0.000

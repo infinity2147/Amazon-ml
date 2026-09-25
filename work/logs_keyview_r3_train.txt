@@ -1,0 +1,5 @@
+india: key pairs 1,882,283 (2.13/S1)
+us: key pairs 2,041,058 (1.54/S1)
+train: pairs r1 -> r2 = 44,754,311
+r1 {'india': np.float64(0.9672), 'us': np.float64(0.9904)}
+r3 {'india': np.float64(0.9722), 'us': np.float64(0.9905)}

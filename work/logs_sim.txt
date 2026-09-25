@@ -1,0 +1,5 @@
+[     6s] removed 419,526 of 2,206,821 S1 (0.190)
+[   386s] india: 15,158,122 pairs (21.2/S1)
+[   936s] us: 21,557,669 pairs (20.1/S1)
+[   949s] saved 36,715,791
+[   954s] S2/S3 records with an owner: 0.599  (train orig 0.74, test est. ~0.60)

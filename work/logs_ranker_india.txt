@@ -1,0 +1,27 @@
+feats (80552895, 18) 565
+india: held-out S1 618,168; uncapped 91.2/S1 recall 1.0 of blocked (union recall measured before)
+  n_s1=10 n_c=0:  10.0/S1  kept 0.9925 of blocked gold  full-cov(of blocked-matchable) 0.9768
+  n_s1=10 n_c=1:  10.1/S1  kept 0.9933 of blocked gold  full-cov(of blocked-matchable) 0.9790
+  n_s1=10 n_c=2:  13.7/S1  kept 0.9941 of blocked gold  full-cov(of blocked-matchable) 0.9813
+  n_s1=10 n_c=3:  17.7/S1  kept 0.9948 of blocked gold  full-cov(of blocked-matchable) 0.9833
+  n_s1=15 n_c=0:  15.0/S1  kept 0.9965 of blocked gold  full-cov(of blocked-matchable) 0.9892
+  n_s1=15 n_c=1:  15.0/S1  kept 0.9967 of blocked gold  full-cov(of blocked-matchable) 0.9897
+  n_s1=15 n_c=2:  18.1/S1  kept 0.9970 of blocked gold  full-cov(of blocked-matchable) 0.9904
+  n_s1=15 n_c=3:  21.7/S1  kept 0.9972 of blocked gold  full-cov(of blocked-matchable) 0.9912
+  n_s1=20 n_c=0:  20.0/S1  kept 0.9978 of blocked gold  full-cov(of blocked-matchable) 0.9933
+  n_s1=20 n_c=1:  20.0/S1  kept 0.9979 of blocked gold  full-cov(of blocked-matchable) 0.9936
+  n_s1=20 n_c=2:  22.6/S1  kept 0.9980 of blocked gold  full-cov(of blocked-matchable) 0.9939
+  n_s1=20 n_c=3:  25.7/S1  kept 0.9982 of blocked gold  full-cov(of blocked-matchable) 0.9943
+  n_s1=25 n_c=0:  25.0/S1  kept 0.9984 of blocked gold  full-cov(of blocked-matchable) 0.9952
+  n_s1=25 n_c=1:  25.0/S1  kept 0.9985 of blocked gold  full-cov(of blocked-matchable) 0.9954
+  n_s1=25 n_c=2:  27.1/S1  kept 0.9986 of blocked gold  full-cov(of blocked-matchable) 0.9955
+  n_s1=25 n_c=3:  29.7/S1  kept 0.9987 of blocked gold  full-cov(of blocked-matchable) 0.9958
+  n_s1=30 n_c=0:  29.9/S1  kept 0.9988 of blocked gold  full-cov(of blocked-matchable) 0.9962
+  n_s1=30 n_c=1:  30.0/S1  kept 0.9988 of blocked gold  full-cov(of blocked-matchable) 0.9963
+  n_s1=30 n_c=2:  31.7/S1  kept 0.9989 of blocked gold  full-cov(of blocked-matchable) 0.9965
+  n_s1=30 n_c=3:  33.9/S1  kept 0.9989 of blocked gold  full-cov(of blocked-matchable) 0.9966
+  n_s1=40 n_c=0:  38.5/S1  kept 0.9992 of blocked gold  full-cov(of blocked-matchable) 0.9975
+  n_s1=40 n_c=1:  38.5/S1  kept 0.9992 of blocked gold  full-cov(of blocked-matchable) 0.9975
+  n_s1=40 n_c=2:  39.8/S1  kept 0.9992 of blocked gold  full-cov(of blocked-matchable) 0.9976
+  n_s1=40 n_c=3:  41.5/S1  kept 0.9993 of blocked gold  full-cov(of blocked-matchable) 0.9977
+done 765
