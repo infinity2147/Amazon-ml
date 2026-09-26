@@ -269,3 +269,34 @@ def add_context(F, keys=("na_prod", "v_word", "rk")):
         F["s1_n_twins"] = n_twin[g1].astype(np.float32)
         F["s1_n_twins_heq"] = n_twin_heq[g1].astype(np.float32)
     return F
+
+
+def add_density_features(F, s1p, cp):
+    """Ambiguity ('density') features, country-neutral in meaning: how many S1 businesses of the same
+    country share this name, or this street address. A name shared by 200 S1s (a chain, or France's
+    generic 'Bordeaux Club SARL') is weak evidence; an address shared by several S1s (a shared building,
+    common in France) makes 'same address' weak evidence. Also a one-digit-substitution house flag
+    (a frequent near-twin decoy operator). Text-only: identical for a record and its validation clone.
+    F: s1_id, cand_id (clones end in '~c'); s1p: entity_id, ctry, name_n, addr_words, house;
+    cp: entity_id, name_n, addr_words, house. Adds dn_* and house_sub1 in place and returns F."""
+    base = F.cand_id.str.replace("~c", "", regex=False)
+    S = s1p.set_index("entity_id").loc[F.s1_id, ["ctry", "name_n", "addr_words", "house"]].to_numpy()
+    C = cp.set_index("entity_id").loc[base, ["name_n", "addr_words", "house"]].to_numpy()
+    ctry = S[:, 0]
+    k_name = pd.Series(s1p.ctry + "|" + s1p.name_n).value_counts()
+    has_a = (s1p.addr_words != "") & (s1p.house != "")
+    k_addr = pd.Series((s1p.ctry + "|" + s1p.addr_words + "|" + s1p.house)[has_a]).value_counts()
+    k_street = pd.Series((s1p.ctry + "|" + s1p.addr_words)[s1p.addr_words != ""]).value_counts()
+
+    def cnt(series, keys, valid):
+        v = pd.Series(keys).map(series).fillna(0).to_numpy(np.float32)
+        return np.where(valid, np.log1p(v), -1).astype(np.float32)
+    F["dn_s1_name"] = cnt(k_name, ctry + "|" + S[:, 1], np.ones(len(F), bool))
+    F["dn_c_name"] = cnt(k_name, ctry + "|" + C[:, 0], C[:, 0] != "")
+    F["dn_s1_addr"] = cnt(k_addr, ctry + "|" + S[:, 2] + "|" + S[:, 3], (S[:, 2] != "") & (S[:, 3] != ""))
+    F["dn_c_addr"] = cnt(k_addr, ctry + "|" + C[:, 1] + "|" + C[:, 2], (C[:, 1] != "") & (C[:, 2] != ""))
+    F["dn_c_street"] = cnt(k_street, ctry + "|" + C[:, 1], C[:, 1] != "")
+    h, r = S[:, 3], C[:, 2]
+    F["house_sub1"] = np.array([(-1 if not a or not b else int(len(a) == len(b) and a != b and sum(x != y for x, y in zip(a, b)) == 1))
+                                for a, b in zip(h, r)], np.int8)
+    return F

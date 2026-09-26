@@ -22,3 +22,11 @@ UPLOAD_THIS/
 
 # Organisers' problem-statement PDF (the README in student_resource/ has the same text)
 6ab5628d5a817_amazon_ml_challenge_problem_statement.pdf
+
+# Local ML models / Hugging Face cache
+work/ce/
+work/hf/
+
+# Experiment logs
+work/logs_*.txt
+code/business_entity_resolution/src/logs_*.txt
