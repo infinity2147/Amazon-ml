@@ -3,3 +3,28 @@
 [   758s] fold 0 model U: best_iter 1156
 [  1106s] fold 0 model W: best_iter 1292
 [  1453s] fold 1 model U: best_iter 1103
+[  1685s] fold 1 model W: best_iter 1249
+[  1882s] fold 2 model U: best_iter 1042
+[  2125s] fold 2 model W: best_iter 1372
+[  2193s] sanity, train density, variant A: 0.97593 (sub3-style stage-1 OOF was ~0.976)
+[  2271s] TLV stage-1 A  unweighted train + unweighted calibration: 0.96876
+                        n  mean_f  lost_share
+country kind                                 
+India   matched    208423  0.9680      0.3872
+        singleton   12373  0.8704      0.0931
+US      matched    312589  0.9788      0.3839
+        singleton   18404  0.8728      0.1358
+[  2346s] TLV stage-1 B  unweighted train + decoy-weighted calibration: 0.97006
+                        n  mean_f  lost_share
+country kind                                 
+India   matched    208423  0.9679      0.4049
+        singleton   12373  0.8915      0.0812
+US      matched    312589  0.9789      0.3995
+        singleton   18404  0.8974      0.1144
+[  2418s] TLV stage-1 C  decoy-weighted train + weighted calibration: 0.97048
+                        n  mean_f  lost_share
+country kind                                 
+India   matched    208423  0.9678      0.4115
+        singleton   12373  0.8944      0.0802
+US      matched    312589  0.9791      0.4007
+        singleton   18404  0.9049      0.1075

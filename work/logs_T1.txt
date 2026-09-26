@@ -7,3 +7,10 @@
 [  1534s] s2 fold 0: best_iter 310
 [  1649s] s2 fold 1: best_iter 315
 [  1740s] s2 fold 2: best_iter 280
+[  1830s] stage-2 TLV F0.5 0.97971
+                        n  mean_f   lost_pts  lost_share
+country kind                                            
+India   matched    208423  0.9764  4928.0371      0.4402
+        singleton   12373  0.9589   508.0000      0.0454
+US      matched    312589  0.9829  5352.9585      0.4782
+        singleton   18404  0.9779   406.0000      0.0363
